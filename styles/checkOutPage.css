@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    background-image: url(../images/chocolate_background.jpeg);
+    background-image: url(../images/hot_chocolate_smoke.gif);
+    background-size: contain;
     justify-content: center;
     
 }
@@ -15,3 +16,11 @@
     padding: 5px;
     color: white;
 }
+
+tr,
+th,
+td {
+    border: 1px solid black;
+}
+
+

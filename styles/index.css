@@ -5,16 +5,8 @@
     border: 1px solid black;
     background-image: url(../images/dessert_1.jpeg);
     background-size: cover;
-}
-
-.main_content {
+    justify-content: center;
     
-    
-    border: 1px solid black;
-}
-
-#box1 {
-    border: 1px solid black;
 }
 
 
@@ -23,6 +15,19 @@
     /* font-weight: bolder; */
     padding: 5px;
     color: white;
+}
+
+.lorem {
+    /* temporary border */
+    border: 1px solid white; 
+}
+
+.row {
+    width: 100%;
+}
+
+img {
+    border: 5px white solid;
 }
 
 

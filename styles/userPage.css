@@ -1,0 +1,46 @@
+#main_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-image: url(../images/chocolate_background.jpeg);
+    justify-content: center;
+    
+}
+
+
+.nav-link {
+    
+    /* font-weight: bolder; */
+    padding: 5px;
+    color: white;
+}
+
+.lorem {
+    /* temporary border */
+    text-align: start;
+    
+}
+
+.box1 {
+    margin-right: 100px;
+    height: 610px;
+}
+
+.box2 {
+    width: 100%;
+}
+
+.box3 {
+    margin-top: 10%;
+    width: 100%;
+}
+
+img {
+    
+    
+}
+
+.col {
+    
+}

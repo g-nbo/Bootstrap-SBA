@@ -3,7 +3,10 @@
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+
+    /* 1 GIF */
     background-image: url(../images/hot_chocolate_smoke.gif);
+
     background-size: contain;
     justify-content: center;
     

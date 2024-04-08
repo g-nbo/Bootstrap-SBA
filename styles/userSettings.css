@@ -78,6 +78,7 @@ form {
     margin-top: 0;
 }
 
+/* CSS Animation */
 #save {
     margin-top: 3%;
     width: 32%;
@@ -87,6 +88,11 @@ form {
 
     transition-property: font-size;
     transition-duration: 1s;
+}
+
+#save:hover {
+    font-size: 107%;
+    
 }
 
 #saveLink {
@@ -100,7 +106,3 @@ label {
 
 
 
-#save:hover {
-    font-size: 107%;
-    
-}

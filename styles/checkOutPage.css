@@ -23,4 +23,51 @@ td {
     border: 1px solid black;
 }
 
+tr {
+    background-color: green;
+}
 
+.container {
+    background-color: black;
+    border: 7px solid #4d5154;
+    border-radius: 1%;
+    height: 60%;
+    
+}
+
+table {
+    font-size: 130%;
+    width: 100%;
+    height: 80%;
+    border: 7px solid #4d5154;
+    font-weight: 600;
+}
+
+.checkoutButtons {
+    display: inline;
+}
+
+fieldset {
+    display: inline;
+    width: 50%;
+    margin-right: 19%;
+}
+
+h1 {
+    color: white;
+    font-size: 250%;
+    font-weight: 700;
+}
+
+button {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-weight: 600;
+}
+
+input {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-weight: 600;
+    
+}

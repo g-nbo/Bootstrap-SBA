@@ -27,7 +27,12 @@
 }
 
 img {
-    border: 5px solid white;
+    border: 7px solid white;
+    animation: pulse;
+    animation-duration: 2s;
+
+    transition-property: font-size;
+    transition-duration: 2s;
 }
 
 h1 {
@@ -43,6 +48,14 @@ a button {
     background-color: white;
     font-size: 140%;
     font-weight: 900;
+    
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+a button:hover {
+    font-size: 150%;
+    
 }
 
 div > p {

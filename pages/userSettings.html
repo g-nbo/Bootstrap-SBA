@@ -26,7 +26,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <dd class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
@@ -41,17 +41,17 @@
                                 aria-expanded="false">
                                 More
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Settings</a></li>
-                                <li><a class="dropdown-item" href="#">Checkout</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Home</a></li>
-                            </ul>
+                    <dd class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Checkout</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
                         </li>
+                        <li><a class="dropdown-item" href="#">Home</a></li>
+                    </dd>
+                    </li>
 
-                    </ul>
+                    </dd>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-light" type="submit">Search</button>
@@ -64,100 +64,92 @@
         <div class="container text-center">
 
             <div class="row align-items-center">
-                <div class="col box1 text-black bg-white">
-                    <img src="..//images/circle_avatar_icon.png" alt="Default User Avatar">
+                <div class="col box1 text-white bg-black">
+                    <form action="#"></form>
+                    <img src="..//images/isolate-black-and-white-bakery-cake-png.webp" width="30%"
+                        alt="Defaddt User Avatar">
+                    <hr>
 
-                    <form action="#">
-                        <div class="col text-start">
-                            <h1 class="text-center">My Profile</h1> <br />
+                    <div class="col profile">
+                        <h1 class="text-center">Your Profile</h1>
 
-                            <label for="userName">Username: </label>
-                            <input type="text" placeholder="John123" /> <br />
+                        <label for="userName">Username: </label>
+                        <input type="text" placeholder="John123" />
 
-                            <label for="birthday">Birthday: </label>
-                            <input type="text" placeholder="08/22/1998" onfocus="(this.type='date')"
-                                onblur="(this.type='text')"> <br />
+                        <label for="birthday">Birthday: </label>
+                        <input type="text" placeholder="08/22/1998" onfocus="(this.type='date')"
+                            onblur="(this.type='text')">
 
-                            <label for="phone">Phone: </label>
-                            <input type="number" placeholder="+1 (777) 777-7777" /> <br />
+                        <label for="phone">Phone: </label>
+                        <input type="number" placeholder="+1 (777) 777-7777" />
 
-                            <label for="email">Email: </label>
-                            <input type="email" placeholder="John123@email.com" /> <br />
+                        <label for="email">Email: </label>
+                        <input type="email" placeholder="John123@email.com" />
 
-                            <label for="password">Password: </label>
-                            <input type="password" placeholder="****************" /> <br /> <br />
+                        <label for="password">Password: </label>
+                        <input type="password" placeholder="****************" />
 
-                            <input type="submit" value="Save" /> <br />
-                    </form>
+                        <a id="saveLink" href="checkOutPage.html">
+                            <input id="save" type="submit" value="Save Changes" />
+                        </a>
+                        </form>
 
-
-
-                    
-                </div>
-                <a href="checkOutPage.html">
-                    <button>
-                        Next Page
-                    </button>
-                </a>
-            </div>
-            <div class="col">
-                <div class="row">
-
-                    <div class="col box2 bg-white">
-                        <h2>Purchase History</h2>
-                        <dl>
-                            <dd>Dark Chocolate Cake</dd>
-                            <dd>Double Fudge Brownies</dd>
-                            <dd>Super Chocolate Chip Cookies</dd>
-                            <dd>Hot Cocoa Ice Cream</dd>
-                            <dd>Devil's Food Cake</dd>
-
-                        </dl>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="row">
 
-                <div class="row">
-                    <div class="col box3 bg-white lorem">
-                        <h2 class="text-center">Contact Us</h2>
-                        <ul>
-                            <li>Phone: +1 (999) 999-9999</li>
-                            <li>Email: CustomerSupport@us.ChocoWorld.com</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque illum minima nisi quos id
-                            praesentium libero eum explicabo blanditiis vitae ipsam incidunt, asperiores, provident
-                            ducimus? Earum expedita possimus, illum reprehenderit vel asperiores saepe nemo, aut
-                            facere, omnis voluptates ipsum esse et corrupti fugit quia dolorem suscipit! Perferendis
-                            fuga non animi. facere, omnis voluptates ipsum esse et corrupti fugit quia dolorem
-                            suscipit! Perferendis
-                            fuga non animi. facere, omnis vol
-                        </p>
+                        <div class="col box2 text-white bg-black">
+                            <h2>Purchase History</h2>
+                            <hr />
+                            <dl>
+                                <dd>1x Dark Chocolate Cake</dd>
+                                <dd>3x Double Fudge Brownies</dd>
+                                <dd>2x Super Chocolate Chip Cookies</dd>
+                                <dd>1x Hot Cocoa Ice Cream</dd>
+                                <dd>1x Devil's Food Cake</dd>
+
+                            </dl>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col box3 text-white bg-black lorem">
+                            <h2 class="text-center">Contact Us</h2>
+                            <hr />
+                            <dd>
+                                <li>Phone: +1 (999) 999-9999</li>
+                                <li>Email: CustomerSupport@us.ChocoWorld.com</li>
+                            </dd>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque illum minima nisi quos id
+                                praesentium libero eum explicabo blanditiis vitae ipsam incidunt, asperiores, provident
+                                ducimus? Earum expedita possimus, illum reprehenderit vel asperiores saepe nemo, aut
+                                facere, omnis voluptates ipsum esse et corrupti fugit quia dolorem suscipit! Perferendis
+                                fuga non animi. facere, omnis voluptates ipsum esse et corrupti fugit quia dolorem
+                                suscipit! Perferendis
+                                fuga non animi. facere, omnis vol
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
         </div>
 
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top fixed-bottom"
+            style="background-color: #ffffff;">
+            <p class="col-md-4 mb-0 text-body-secondary">© ChocoWorld, Inc</p>
 
-    </div>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top fixed-bottom"
-        style="background-color: #ffffff;">
-        <p class="col-md-4 mb-0 text-body-secondary">© Gabriel, Inc</p>
-
-        <a href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg>
-        </a>
-
-        <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-        </ul>
-    </footer>
+            <dd class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </dd>
+        </footer>
     </div>
     </div>
 </body>

@@ -1,7 +1,10 @@
 # ChocoWorld
 ## More, Chocolate
 
-This Website can be viewed on our github pages website: https://g-nbo.github.io/Bootstrap-SBA/pages/index.html or by directly downloading all linked files directly from our github repository: https://github.com/g-nbo/Bootstrap-SBA .
+This Website can be viewed on our github pages website: https://g-nbo.github.io/Bootstrap-SBA/pages/index.html or by directly downloading all linked files directly from our github repository: https://github.com/g-nbo/Bootstrap-SBA
+
+Our website is designed to meet your sweet tooth needs. 
+Ever felt like there was such a thing as too much chocolate? Yea, me neither.
 
 ## Features
 

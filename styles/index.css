@@ -24,7 +24,7 @@
 
 img {
     border: 7px solid white;
-    animation: pulse;
+    /* animation: pulse; */
     animation-duration: 2s;
 
     transition-property: font-size;
